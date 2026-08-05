@@ -9,7 +9,7 @@ COPY system_files /system_files
 # FROM ghcr.io/ublue-os/bazzite:testing
 # FROM ghcr.io/ublue-os/aurora:stable
 # FROM ghcr.io/ublue-os/bluefin-nvidia-open:stable
-FROM ghcr.io/ublue-os/bluefin:sha256-9bd683c6e789c922a2ea72b303813e43a1a95c2e0e812f38b8979144dd50e288
+FROM ghcr.io/ublue-os/bluefin:latest
 # 
 # ... and so on, here are more base images
 # Universal Blue Images: https://github.com/orgs/ublue-os/packages
