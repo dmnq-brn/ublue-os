@@ -9,9 +9,10 @@ SHARED_PACKAGES=(
     # PackageKit-command-not-found
     # PackageKit-gtk3-module
     audit
-    bpftool
+    # bpftool
     dconf
     dnsmasq
+    distrobox
     firewalld
     fprintd-pam
     git-core
@@ -25,7 +26,7 @@ SHARED_PACKAGES=(
     gnome-session-wayland-session
     gnome-settings-daemon
     gnome-shell
-    gnome-shell-extension-background-logo
+    # gnome-shell-extension-background-logo
     gnome-software
     # gvfs-fuse
     iw
@@ -34,7 +35,7 @@ SHARED_PACKAGES=(
     mesa-dri-drivers
     mesa-vulkan-drivers
     nautilus
-    orca
+    # orca
     plymouth-system-theme
     polkit
     ptyxis

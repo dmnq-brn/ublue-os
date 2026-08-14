@@ -10,8 +10,29 @@ EXCLUDED_PACKAGES=(
     fedora-chromium-config-gnome
     firefox
     firefox-langpacks
+    gnome-boxes
+    gnome-browser-connector
+    gnome-calculator
+    gnome-calendar
+    gnome-calendar
+    gnome-characters
+    gnome-classic-session
+    gnome-clocks
+    gnome-color-manager
+    gnome-connections
+    gnome-contacts
+    gnome-disk-utility
+    gnome-epub-thumbnailer
     gnome-extensions-app
+    gnome-font-viewer
+    gnome-logs
+    gnome-maps
+    gnome-remote-desktop
     gnome-shell-extension-background-logo
+    gnome-system-monitor
+    gnome-user-docs
+    gnome-user-share
+    gnome-weather
     gnome-software-rpm-ostree
     gnome-terminal-nautilus
     podman-docker
