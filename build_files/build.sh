@@ -14,3 +14,5 @@ cp -avf "/ctx/system_files"/. /
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+
+systemctl set-default graphical.target
