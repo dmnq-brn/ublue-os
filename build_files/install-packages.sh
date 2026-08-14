@@ -47,7 +47,7 @@ SHARED_PACKAGES=(
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
     xdg-user-dirs-gtk
-    yelp-tools
+    # yelp-tools
     vim-enhanced
 )
 
