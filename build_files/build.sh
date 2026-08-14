@@ -6,10 +6,10 @@ set -ouex pipefail
 cp -avf "/ctx/system_files"/. /
 
 ### Install required packages
-/ctx/build_files/install-packages.sh
+/ctx/install-packages.sh
 
 ### remove 
-/ctx/build_files/remove-packages.sh
+/ctx/remove-packages.sh
 
 #### Example for enabling a System Unit File
 
