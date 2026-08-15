@@ -4,8 +4,8 @@ set -ouex pipefail
 
 # Packages to exclude - common to all versions
 EXCLUDED_PACKAGES=(
-    avahi
-    avahi-glib
+    # avahi
+    # avahi-glib
     cosign
     fedora-bookmarks
     fedora-chromium-config
