@@ -46,6 +46,8 @@ SHARED_PACKAGES=(
     smartmontools
     tracker
     tracker-miners
+    # force install 
+    wpa_supplicant
     xdg-desktop-portal
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
@@ -102,7 +104,7 @@ GUEST_DESKTOP_AGENTS=(
 
 # Install packages
 if [[ "${#SHARED_PACKAGES[@]}" -gt 0 ]]; then
-    readarray -t UINSTALLED < <(rpm -qa --queryformat='%{NAME}\n' "${SHARED_PACKAGES[@]}" "${GUEST_DESKTOP_AGENTS[@]}" 2>/dev/null || true)
+    readarray -t UINSTALLED < <(rpm -qa --queryformat='%{NAME}\n' "${SHARED_PACKAGES[@]}" "${GUEST_DESKTOP_AGENTS[@]}" "${FONTS_PACKAGES[@]}" 2>/dev/null || true)
     if [[ "${#UINSTALLED[@]}" -gt 0 ]]; then
         echo "Installing ${#UINSTALLED[@]} packages from repos..."
         dnf -y --setopt=install_weak_deps=False install "${UINSTALLED[@]}"

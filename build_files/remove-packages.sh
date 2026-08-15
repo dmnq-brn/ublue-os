@@ -5,6 +5,7 @@ set -ouex pipefail
 # Packages to exclude - common to all versions
 EXCLUDED_PACKAGES=(
     avahi
+    avahi-glib
     cosign
     fedora-bookmarks
     fedora-chromium-config
@@ -37,11 +38,14 @@ EXCLUDED_PACKAGES=(
     gnome-weather
     gnome-software-rpm-ostree
     gnome-terminal-nautilus
+    hunspell
     podman-docker
     qemu-user-static
     qemu-user-static-aarch64
     qemu-user-static-arm
     qemu-user-static-x86
+    samba-client
+    totem-pl-parser
     yelp
     subscription-manager
     subscription-manager-rhsm-certificates
