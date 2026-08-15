@@ -4,6 +4,7 @@ set -ouex pipefail
 
 # Packages to exclude - common to all versions
 EXCLUDED_PACKAGES=(
+    avahi
     cosign
     fedora-bookmarks
     fedora-chromium-config
@@ -25,6 +26,7 @@ EXCLUDED_PACKAGES=(
     gnome-epub-thumbnailer
     gnome-extensions-app
     gnome-font-viewer
+    gnome_keyring
     gnome-logs
     gnome-maps
     gnome-remote-desktop
