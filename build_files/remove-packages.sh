@@ -38,6 +38,10 @@ EXCLUDED_PACKAGES=(
     gnome-software-rpm-ostree
     gnome-terminal-nautilus
     podman-docker
+    qemu-user-static
+    qemu-user-static-aarch64
+    qemu-user-static-arm
+    qemu-user-static-x86
     yelp
     subscription-manager
     subscription-manager-rhsm-certificates
