@@ -97,7 +97,6 @@ jobs:
             --entrypoint bash \
             -e FLATPAK_SYSTEM_DIR=/flatpak/flatpak \
             -e FLATPAK_TRIGGERSDIR=/flatpak/triggers \
-            --volume ${FLATPAK_REFS_DIR}:/output \
             --volume ${TEMP_FLATPAK_INSTALL_DIR}:/temp_flatpak_install_dir \
             ${image} /temp_flatpak_install_dir/script.sh
           docker rmi ${image}
