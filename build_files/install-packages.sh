@@ -9,6 +9,7 @@ SHARED_PACKAGES=(
     # PackageKit-command-not-found
     # PackageKit-gtk3-module
     audit
+    bootc
     # bpftool
     dconf
     dnsmasq
@@ -36,6 +37,7 @@ SHARED_PACKAGES=(
     mesa-vulkan-drivers
     nautilus
     # orca
+    plymouth
     plymouth-system-theme
     polkit
     ptyxis
