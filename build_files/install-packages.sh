@@ -46,8 +46,6 @@ SHARED_PACKAGES=(
     smartmontools
     tracker
     tracker-miners
-    # force install 
-    wpa_supplicant
     xdg-desktop-portal
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
